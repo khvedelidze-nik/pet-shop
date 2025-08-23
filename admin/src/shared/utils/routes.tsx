@@ -1,6 +1,6 @@
-import Layout from "./shared/layout/Layout";
-import HomePage from "./features/homePage/pages/HomePage";
-import AnimalsPage from "./features/animals/pages/AnimalsPage";
+import Layout from "../layout/Layout";
+import HomePage from "../../features/homePage/pages/HomePage";
+import AnimalsPage from "../../features/animals/pages/AnimalsPage";
 
 const router = [
   {
