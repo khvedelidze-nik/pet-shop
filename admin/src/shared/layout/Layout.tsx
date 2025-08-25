@@ -8,7 +8,10 @@ const StyledLayout = styled.div`
   position: relative;
 `;
 const StyledMain = styled.main`
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 160px);
+  max-width: calc(100vw - 40px);
+  min-width: calc(100vw - 45px);
+  padding: 20px;
 `;
 
 const Layout = () => {

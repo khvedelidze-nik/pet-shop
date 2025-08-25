@@ -9,6 +9,9 @@ const StyledNavbar = styled.div`
   min-width: calc(100vw - 45px);
   height: 20px;
   line-height: 20px;
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
 `;
 
 const StyledLink = styled(Link)`
@@ -20,7 +23,7 @@ const Navbar = () => {
   return (
     <StyledNavbar>
       <StyledLink to={"/"}>Home</StyledLink>
-      <StyledLink to={"/animals"}>Animals</StyledLink>
+      <StyledLink to={"/list/Animals"}>List</StyledLink>
     </StyledNavbar>
   );
 };

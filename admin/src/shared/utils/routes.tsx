@@ -1,6 +1,6 @@
 import Layout from "../layout/Layout";
 import HomePage from "../../features/homePage/pages/HomePage";
-import AnimalsPage from "../../features/animals/pages/AnimalsPage";
+import ListPage from "../../features/listPage/pages/ListPage";
 
 const router = [
   {
@@ -12,8 +12,8 @@ const router = [
         index: true,
       },
       {
-        element: <AnimalsPage />,
-        path: "animals",
+        element: <ListPage />,
+        path: "list/:listType",
       },
     ],
   },
