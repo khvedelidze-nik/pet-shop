@@ -22,8 +22,9 @@ const StyledLink = styled(Link)`
 const Navbar = () => {
   return (
     <StyledNavbar>
-      <StyledLink to={"/"}>Home</StyledLink>
-      <StyledLink to={"/list/Animals"}>List</StyledLink>
+      <StyledLink to={"/"}>მთავარი</StyledLink>
+      <StyledLink to={"/list/animals"}>სია</StyledLink>
+      <StyledLink to={"/create/animal"}>შექმნა</StyledLink>
     </StyledNavbar>
   );
 };
